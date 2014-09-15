@@ -1,4 +1,7 @@
 vim_config
 ==========
 
-vim configuration files
+$ git clone <repo>
+$ cd vim_config
+$ ./install.sh
+$ ./update.sh
