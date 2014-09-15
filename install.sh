@@ -1,6 +1,11 @@
 #! /bin/bash
 
-ln -s ~/.vim/vimrc ~/.vimrc
-ln -s ~/.vim/gvimrc ~/.gvimrc
+cd=`pwd`
 
-mkdir .vimswp
+ln -s $cd/vimrc ~/.vimrc
+ln -s $cd/gvimrc ~/.gvimrc
+ln -s $cd ~/.vim
+
+mkdir ~/.vimswp
+
+git submodule update --init --recursive
