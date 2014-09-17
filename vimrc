@@ -174,13 +174,13 @@ set nomodeline
 
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
-"set background=dark " Although the colorscheme should be setting this anyway
-set background=light " Although the colorscheme should be setting this anyway
+"set background=light" Although the colorscheme should be setting this anyway
+"set background=light " Although the colorscheme should be setting this anyway
 
 " for 256 color terminal
 set t_Co=256
 "colorscheme wombat256
-colors solarized
+colors delphi
 "colors zenburn
 "highlight ColorColumn term=reverse ctermbg=238
 "colors github
